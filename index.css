@@ -1,0 +1,133 @@
+#img1,#img2 {
+    opacity: 0;
+}
+
+body {
+    background-image: url(./img/meteor\ shower.gif);
+    background-size: contain;
+}
+
+#title {
+    color:white;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+}
+
+table,td,tr {
+    border: 5px solid skyblue;
+    border-collapse: collapse;
+    border-style: dashed;
+    opacity: 0.9;
+    color: black;
+    font-size: x-large;
+    background-image:linear-gradient(to left,#fff1eb,#ace0f9);
+}
+
+#contactMe {
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.text {
+    text-indent: 2em;
+}
+
+#register {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    float: right;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size:large ;
+}
+
+h4 {
+    font-family:monospace;
+    color: white;
+}
+
+button {
+    border: aqua 2px solid;
+    width: 100px;
+    height: 60px;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:grey;
+    color: black;
+}
+
+#back{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+    opacity: 0.7;
+    background-color: white;
+}
+
+#navi {
+    height: 62px; 
+    width:100%;
+    background:white;
+    position: fixed;
+    z-index: 9999; 
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float:left;
+    margin-right:2.5%;
+}
+
+li a {
+    display: block;
+    color:black;
+    text-decoration: none; 
+    font-weight: 900;
+    font-size: larger;
+}
+
+li a:hover {
+    background-color:white;
+}
+
+ul li ul {
+    background:white;
+    display: none; 
+}
+
+ul li ul li {    
+    float: none;
+    font-size: medium;
+    color: black;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.subtitle{
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 900;
+}
+
+#references{
+    font-size: xx-large;
+    font-weight: 900;
+}
